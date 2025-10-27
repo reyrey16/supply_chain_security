@@ -1,5 +1,8 @@
 name: Generate SBOM Report with Syft
 
+on:
+  workflow_dispatch:
+
 jobs:
   generate-sbom:
     runs-on: ubuntu-latest
